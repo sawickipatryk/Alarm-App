@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Alarm app</title>
+    <link
+        rel="icon"
+        href="img/favicon.ico"
+        type="image/x-icon"
+    >
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="upcoming__alarm"></div>
+        <div class="container">
+            <div class="container__inputs">
+                <input
+                    class="container__input--hour"
+                    type="number"
+                    min="0"
+                    max="23"
+                    placeholder="00"
+                >
+                <input
+                    class="container__input--minute"
+                    type="number"
+                    min="0"
+                    max="59"
+                    placeholder="00"
+                >
+            </div>
+            <div class="container__buttons">
+                <button class="container__button--add-alarm">Add Alarm</button>
+                <button class="container__button--clear-all">Clear All</button>
+            </div>
+            <div class="alarms-list"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
