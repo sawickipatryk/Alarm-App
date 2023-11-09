@@ -56,6 +56,11 @@ body{
   width: 100%;
   margin-bottom: 40px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
 .container__button--add-alarm,
 .container__button--clear-all{
   color: white;
